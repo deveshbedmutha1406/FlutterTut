@@ -17,17 +17,8 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: const Center(
-        child: Text(
-            "Hello devesh",
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey,
-              fontFamily: 'IndieFlower',
-            )
-        ),
+      body: Center(
+        child: Image.asset('assets/space1.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
@@ -40,4 +31,3 @@ class Home extends StatelessWidget {
 }
 
 
-// adding comment for sample commit
